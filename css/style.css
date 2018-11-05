@@ -404,14 +404,14 @@ blockquote {
 .container > div > footer {
   width: 100%;
   text-align: center;
-  color: #f8edf2;
+  color: #933;
   font-size: 14px;
   line-height: 20px;
   padding: 5rem 0 2rem;
 }
 .container > div > footer a {
-  color: #f8edf2;
-  border-color: #f8edf2;
+  color: #000;
+  border-color: #933;
 }
 .container > div > footer a:hover {
   color: #af4474;
