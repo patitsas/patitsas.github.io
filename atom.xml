@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-05T03:38:23.732Z</updated>
+  <updated>2018-11-04T19:58:57.037Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Test</title>
-    <link href="http://yoursite.com/2018/11/04/Test/"/>
-    <id>http://yoursite.com/2018/11/04/Test/</id>
-    <published>2018-11-05T03:38:23.000Z</published>
-    <updated>2018-11-05T03:38:23.732Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>First Post</title>
@@ -44,28 +30,6 @@
         
         
           &lt;p&gt;Hello
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/11/04/hello-world/"/>
-    <id>http://yoursite.com/2018/11/04/hello-world/</id>
-    <published>2018-11-04T19:51:00.222Z</published>
-    <updated>2018-11-04T19:51:00.222Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
         
       
     
