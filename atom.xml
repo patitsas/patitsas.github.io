@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-04T19:58:57.037Z</updated>
+  <updated>2018-11-06T02:18:04.276Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>First Post</title>
-    <link href="http://yoursite.com/2018/11/04/First-Post/"/>
-    <id>http://yoursite.com/2018/11/04/First-Post/</id>
-    <published>2018-11-04T19:58:43.000Z</published>
-    <updated>2018-11-04T19:58:57.037Z</updated>
+    <title>Spoon Theory: A Form Of Capital</title>
+    <link href="http://yoursite.com/2018/03/25/Spoon-Theory-A-Form-Of-Capital/"/>
+    <id>http://yoursite.com/2018/03/25/Spoon-Theory-A-Form-Of-Capital/</id>
+    <published>2018-03-25T15:17:26.000Z</published>
+    <updated>2018-11-06T02:18:04.276Z</updated>
     
     <summary type="html">
     
@@ -29,12 +29,588 @@
       
         
         
-          &lt;p&gt;Hello
+          &lt;p&gt;As social stratification is something that sociologists study, it’s also something that we sociologists have spent a fair bit of time
         
       
     
     </summary>
     
+    
+      <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="bourdieu" scheme="http://yoursite.com/tags/bourdieu/"/>
+    
+      <category term="autoethnography" scheme="http://yoursite.com/tags/autoethnography/"/>
+    
+      <category term="disability studies" scheme="http://yoursite.com/tags/disability-studies/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>What&#39;s different between female STEM workers and those in other professions?</title>
+    <link href="http://yoursite.com/2017/02/27/What-s-different-between-female-STEM-workers-and-those-in-other-professions/"/>
+    <id>http://yoursite.com/2017/02/27/What-s-different-between-female-STEM-workers-and-those-in-other-professions/</id>
+    <published>2017-02-27T19:09:55.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Many studies of women in STEM use men as a referent group to women: &lt;em&gt;how do women compare to men in CS with regard to retention,
+        
+      
+    
+    </summary>
+    
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="women in stem" scheme="http://yoursite.com/tags/women-in-stem/"/>
+    
+      <category term="inclusiveness" scheme="http://yoursite.com/tags/inclusiveness/"/>
+    
+      <category term="referent groups" scheme="http://yoursite.com/tags/referent-groups/"/>
+    
+      <category term="women in workplace" scheme="http://yoursite.com/tags/women-in-workplace/"/>
+    
+      <category term="workplace retention" scheme="http://yoursite.com/tags/workplace-retention/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>What CS Departments Do Matters: Diversity and Enrolment Booms</title>
+    <link href="http://yoursite.com/2017/02/26/What-CS-Departments-Do-Matters-Diversity-and-Enrolment-Booms/"/>
+    <id>http://yoursite.com/2017/02/26/What-CS-Departments-Do-Matters-Diversity-and-Enrolment-Booms/</id>
+    <published>2017-02-26T18:17:41.000Z</published>
+    <updated>2018-11-06T02:18:04.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I’ve written before about &lt;a href=&quot;https://patitsas.blogspot.ca/2013/11/women-in-cs-historical-perspective.html&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="diversity in cs" scheme="http://yoursite.com/tags/diversity-in-cs/"/>
+    
+      <category term="women in cs" scheme="http://yoursite.com/tags/women-in-cs/"/>
+    
+      <category term="cs enrolments" scheme="http://yoursite.com/tags/cs-enrolments/"/>
+    
+      <category term="enrolment booms" scheme="http://yoursite.com/tags/enrolment-booms/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introducing Computer Science via Online Security: An Experience Report</title>
+    <link href="http://yoursite.com/2017/02/26/Introducing-Computer-Science-via-Online-Security-An-Experience-Report/"/>
+    <id>http://yoursite.com/2017/02/26/Introducing-Computer-Science-via-Online-Security-An-Experience-Report/</id>
+    <published>2017-02-26T17:42:37.000Z</published>
+    <updated>2018-11-06T02:18:04.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Last weekend I spent two hours teaching an informal introduction to online security to an audience of political activists. I wound up
+        
+      
+    
+    </summary>
+    
+    
+      <category term="computer science education" scheme="http://yoursite.com/tags/computer-science-education/"/>
+    
+      <category term="computing as literacy" scheme="http://yoursite.com/tags/computing-as-literacy/"/>
+    
+      <category term="cybersecurity" scheme="http://yoursite.com/tags/cybersecurity/"/>
+    
+      <category term="teaching" scheme="http://yoursite.com/tags/teaching/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Computer Science for Future Leaders</title>
+    <link href="http://yoursite.com/2017/02/26/Computer-Science-for-Future-Leaders/"/>
+    <id>http://yoursite.com/2017/02/26/Computer-Science-for-Future-Leaders/</id>
+    <published>2017-02-26T07:17:10.000Z</published>
+    <updated>2018-11-06T02:18:04.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;There’s a great physics course out there called Physics for Future Presidents. For some time I’ve been mulling over what a Computer
+        
+      
+    
+    </summary>
+    
+    
+      <category term="computer science education" scheme="http://yoursite.com/tags/computer-science-education/"/>
+    
+      <category term="computing as literacy" scheme="http://yoursite.com/tags/computing-as-literacy/"/>
+    
+      <category term="cybersecurity" scheme="http://yoursite.com/tags/cybersecurity/"/>
+    
+      <category term="introduction to cs" scheme="http://yoursite.com/tags/introduction-to-cs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Helping women in CS with impostor syndrome is missing the forest for the trees</title>
+    <link href="http://yoursite.com/2016/06/02/Helping-women-in-CS-with-impostor-syndrome-is-missing-the-forest-for-the-trees/"/>
+    <id>http://yoursite.com/2016/06/02/Helping-women-in-CS-with-impostor-syndrome-is-missing-the-forest-for-the-trees/</id>
+    <published>2016-06-03T01:28:36.000Z</published>
+    <updated>2018-11-06T02:32:40.244Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Alexis Hancock recently wrote an &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="women in cs" scheme="http://yoursite.com/tags/women-in-cs/"/>
+    
+      <category term="impostor syndrome" scheme="http://yoursite.com/tags/impostor-syndrome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CS grades: probably more normal than you think they are</title>
+    <link href="http://yoursite.com/2016/03/22/CS-grades-probably-more-normal-than-you-think-they-are/"/>
+    <id>http://yoursite.com/2016/03/22/CS-grades-probably-more-normal-than-you-think-they-are/</id>
+    <published>2016-03-22T23:52:46.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;It’s commonly said that computer science grades are bimodal. And people in the CS education community have spent a lot of time
+        
+      
+    
+    </summary>
+    
+    
+      <category term="assessment" scheme="http://yoursite.com/tags/assessment/"/>
+    
+      <category term="bias" scheme="http://yoursite.com/tags/bias/"/>
+    
+      <category term="grades distributions" scheme="http://yoursite.com/tags/grades-distributions/"/>
+    
+      <category term="statistics" scheme="http://yoursite.com/tags/statistics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A Seven-Step Primer on Soft Systems Methodology</title>
+    <link href="http://yoursite.com/2016/03/21/A-Seven-Step-Primer-on-Soft-Systems-Methodology/"/>
+    <id>http://yoursite.com/2016/03/21/A-Seven-Step-Primer-on-Soft-Systems-Methodology/</id>
+    <published>2016-03-21T23:53:09.000Z</published>
+    <updated>2018-11-06T02:18:04.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I’m currently TAing for &lt;a href=&quot;http://www.cs.toronto.edu/~sme/SystemsThinking/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CSC2720H Systems
+        
+      
+    
+    </summary>
+    
+    
+      <category term="cs education" scheme="http://yoursite.com/tags/cs-education/"/>
+    
+      <category term="research methodology" scheme="http://yoursite.com/tags/research-methodology/"/>
+    
+      <category term="systems problems" scheme="http://yoursite.com/tags/systems-problems/"/>
+    
+      <category term="systems thinking" scheme="http://yoursite.com/tags/systems-thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Getting Fedora 23 working on an Asus Zenbook UX305CA (Intel Skylake)</title>
+    <link href="http://yoursite.com/2016/02/19/Getting-Fedora-23-working-on-an-Asus-Zenbook-UX305CA-Intel-Skylake/"/>
+    <id>http://yoursite.com/2016/02/19/Getting-Fedora-23-working-on-an-Asus-Zenbook-UX305CA-Intel-Skylake/</id>
+    <published>2016-02-19T22:51:23.000Z</published>
+    <updated>2018-11-06T02:18:04.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I recently acquired a shiny new Asus Zenbook UX305CA to replace my old UX32A which had been dying a slow death for the past
+        
+      
+    
+    </summary>
+    
+    
+      <category term="fedora" scheme="http://yoursite.com/tags/fedora/"/>
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>On Paulo Freire, and seeing computing as literacy</title>
+    <link href="http://yoursite.com/2016/01/28/On-Paulo-Freire-and-seeing-computing-as-literacy/"/>
+    <id>http://yoursite.com/2016/01/28/On-Paulo-Freire-and-seeing-computing-as-literacy/</id>
+    <published>2016-01-29T01:41:24.000Z</published>
+    <updated>2018-11-06T02:18:04.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Paulo Freire was a Brazilian educator, best known for his book &lt;em&gt;Pedagogy of the Oppressed&lt;/em&gt;. Indeed, it’s &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="computer science education" scheme="http://yoursite.com/tags/computer-science-education/"/>
+    
+      <category term="computing as literacy" scheme="http://yoursite.com/tags/computing-as-literacy/"/>
+    
+      <category term="critical pedagogy" scheme="http://yoursite.com/tags/critical-pedagogy/"/>
+    
+      <category term="freire" scheme="http://yoursite.com/tags/freire/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Impostor syndrome viewed through the lens of social theory</title>
+    <link href="http://yoursite.com/2016/01/27/Impostor-syndrome-viewed-through-the-lens-of-social-theory/"/>
+    <id>http://yoursite.com/2016/01/27/Impostor-syndrome-viewed-through-the-lens-of-social-theory/</id>
+    <published>2016-01-28T02:44:49.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Sociologists like to use performance as a metaphor for everyday life. Erving Goffman in particular championed the metaphor, bringing to
+        
+      
+    
+    </summary>
+    
+    
+      <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="bourdieu" scheme="http://yoursite.com/tags/bourdieu/"/>
+    
+      <category term="bias" scheme="http://yoursite.com/tags/bias/"/>
+    
+      <category term="impostor syndrome" scheme="http://yoursite.com/tags/impostor-syndrome/"/>
+    
+      <category term="goffman" scheme="http://yoursite.com/tags/goffman/"/>
+    
+      <category term="psychology" scheme="http://yoursite.com/tags/psychology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A brief introduction to social theory</title>
+    <link href="http://yoursite.com/2015/12/17/A-brief-introduction-to-social-theory/"/>
+    <id>http://yoursite.com/2015/12/17/A-brief-introduction-to-social-theory/</id>
+    <published>2015-12-18T00:28:10.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Theories from psychology enjoy a fair bit of use in computer science education, but education is not merely a cognitive process: it’s
+        
+      
+    
+    </summary>
+    
+    
+      <category term="philosophy" scheme="http://yoursite.com/tags/philosophy/"/>
+    
+      <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A Survey of High School CS in Canada</title>
+    <link href="http://yoursite.com/2014/12/18/A-Survey-of-High-School-CS-in-Canada/"/>
+    <id>http://yoursite.com/2014/12/18/A-Survey-of-High-School-CS-in-Canada/</id>
+    <published>2014-12-18T19:17:04.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I thought I’d have a look at the status of high school CS across Canada. (I’m keeping this to provinces/territories that have a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="canada" scheme="http://yoursite.com/tags/canada/"/>
+    
+      <category term="high school cs" scheme="http://yoursite.com/tags/high-school-cs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>I drank the critical theory koolaid.</title>
+    <link href="http://yoursite.com/2014/11/26/I-drank-the-critical-theory-koolaid/"/>
+    <id>http://yoursite.com/2014/11/26/I-drank-the-critical-theory-koolaid/</id>
+    <published>2014-11-26T20:10:54.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="LHA1803Y" scheme="http://yoursite.com/tags/LHA1803Y/"/>
+    
+      <category term="fun" scheme="http://yoursite.com/tags/fun/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A quick and dirty introduction to Bourdieu for systems thinkers</title>
+    <link href="http://yoursite.com/2014/11/26/A-quick-and-dirty-introduction-to-Bourdieu-for-systems-thinkers/"/>
+    <id>http://yoursite.com/2014/11/26/A-quick-and-dirty-introduction-to-Bourdieu-for-systems-thinkers/</id>
+    <published>2014-11-26T19:48:07.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I’ve been on a &lt;a href=&quot;http://en.wikipedia.org/wiki/Pierre_Bourdieu&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Bourdieu&lt;/a&gt; kick for the course
+        
+      
+    
+    </summary>
+    
+    
+      <category term="systems thinking" scheme="http://yoursite.com/tags/systems-thinking/"/>
+    
+      <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="bourdieu" scheme="http://yoursite.com/tags/bourdieu/"/>
+    
+      <category term="LHA1803Y" scheme="http://yoursite.com/tags/LHA1803Y/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fun and educational halloween costumes: Grace Hopper</title>
+    <link href="http://yoursite.com/2014/11/13/Fun-and-educational-halloween-costumes-Grace-Hopper/"/>
+    <id>http://yoursite.com/2014/11/13/Fun-and-educational-halloween-costumes-Grace-Hopper/</id>
+    <published>2014-11-13T19:11:55.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A bit belated, but fun – I went as &lt;a href=&quot;http://en.wikipedia.org/wiki/Grace_Hopper&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Rear Admiral Grace
+        
+      
+    
+    </summary>
+    
+    
+      <category term="fun" scheme="http://yoursite.com/tags/fun/"/>
+    
+      <category term="halloween" scheme="http://yoursite.com/tags/halloween/"/>
+    
+      <category term="history" scheme="http://yoursite.com/tags/history/"/>
+    
+      <category term="history of cs" scheme="http://yoursite.com/tags/history-of-cs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Categorizing Interventions: Adapting the USI Model to CS Education</title>
+    <link href="http://yoursite.com/2014/11/12/Categorizing-Interventions-Adapting-the-USI-Model-to-CS-Education/"/>
+    <id>http://yoursite.com/2014/11/12/Categorizing-Interventions-Adapting-the-USI-Model-to-CS-Education/</id>
+    <published>2014-11-12T23:25:48.000Z</published>
+    <updated>2018-11-06T02:18:04.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I’m interested in studying diversity initiatives in CS education – and in doing so I consider it helpful to have a model of the
+        
+      
+    
+    </summary>
+    
+    
+      <category term="diversity in cs" scheme="http://yoursite.com/tags/diversity-in-cs/"/>
+    
+      <category term="interventions" scheme="http://yoursite.com/tags/interventions/"/>
+    
+      <category term="public health" scheme="http://yoursite.com/tags/public-health/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Highlights from ICER 2013</title>
+    <link href="http://yoursite.com/2014/06/28/Highlights-from-ICER-2013/"/>
+    <id>http://yoursite.com/2014/06/28/Highlights-from-ICER-2013/</id>
+    <published>2014-06-28T13:52:42.000Z</published>
+    <updated>2018-11-06T02:27:28.986Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A few weeks back, I attended ICER 2013 at UC San Diego. Afterwards, I  went up to San Francisco and had some adventures there (and at 
+        
+      
+    
+    </summary>
+    
+    
+      <category term="cs education" scheme="http://yoursite.com/tags/cs-education/"/>
+    
+      <category term="research" scheme="http://yoursite.com/tags/research/"/>
+    
+      <category term="cs2" scheme="http://yoursite.com/tags/cs2/"/>
+    
+      <category term="conferences" scheme="http://yoursite.com/tags/conferences/"/>
+    
+      <category term="cs1" scheme="http://yoursite.com/tags/cs1/"/>
+    
+      <category term="icer" scheme="http://yoursite.com/tags/icer/"/>
+    
+      <category term="travel" scheme="http://yoursite.com/tags/travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bonuses and Software Projects</title>
+    <link href="http://yoursite.com/2014/06/28/Bonuses-and-Software-Projects/"/>
+    <id>http://yoursite.com/2014/06/28/Bonuses-and-Software-Projects/</id>
+    <published>2014-06-28T13:51:03.000Z</published>
+    <updated>2018-11-06T02:27:28.986Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-NET2tnpXIlg/UgRWQvHV3oI/AAAAAAAAAjQ/Al8qX4gIUtA/s1600/Individual+vs+Team.jpg&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="cs education" scheme="http://yoursite.com/tags/cs-education/"/>
+    
+      <category term="diversity in cs" scheme="http://yoursite.com/tags/diversity-in-cs/"/>
+    
+      <category term="research" scheme="http://yoursite.com/tags/research/"/>
+    
+      <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Comparing and contrasting algorithms is better than sequential presentation</title>
+    <link href="http://yoursite.com/2014/06/28/Comparing-and-contrasting-algorithms-is-better-than-sequential-presentation/"/>
+    <id>http://yoursite.com/2014/06/28/Comparing-and-contrasting-algorithms-is-better-than-sequential-presentation/</id>
+    <published>2014-06-28T13:49:36.000Z</published>
+    <updated>2018-11-06T02:27:28.986Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;In five days, I’ll be heading to &lt;a href=&quot;http://icer.hosting.acm.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICER 2013&lt;/a&gt; in San Diego, where
+        
+      
+    
+    </summary>
+    
+    
+      <category term="cs education" scheme="http://yoursite.com/tags/cs-education/"/>
+    
+      <category term="research" scheme="http://yoursite.com/tags/research/"/>
+    
+      <category term="cs2" scheme="http://yoursite.com/tags/cs2/"/>
+    
+      <category term="psychology of programming" scheme="http://yoursite.com/tags/psychology-of-programming/"/>
     
   </entry>
   

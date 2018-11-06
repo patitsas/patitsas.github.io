@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Elizabeth Patitsas</title>
+  
+  
+  
+  <!--link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.10.0/styles/github-gist.min.css"-->
+  <link rel="stylesheet" href="/css/styler.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<div class="Shell">
+    <aside class="SideBar">
+    <section class="avatar" style="background-image: url()">
+        <div class="av-pic" style="background-image: url(https://patitsas.github.io/assets/profile.jpg)">
+        </div>
+    </section>
+    <section class="menu">
+        <br>
+        <h3 class="class">Elizabeth Patitsas</h3>
+        
+            <div>Sociology + CS education</div>
+        
+        
+            <div>Assistant professor</div>
+        
+        
+            <div>McGill University</div>
+        
+        <ul>
+          
+            <a href="/" class="Btn">
+              <li>Home</li>
+            </a>  
+          
+            <a href="/About/" class="Btn">
+              <li>About</li>
+            </a>  
+          
+            <a href="/Research/" class="Btn">
+              <li>Research</li>
+            </a>  
+          
+            <a href="/Students/" class="Btn">
+              <li>Students</li>
+            </a>  
+          
+            <a href="/Teaching/" class="Btn">
+              <li>Teaching</li>
+            </a>  
+          
+            <a href="/blog/" class="Btn">
+              <li>Blog</li>
+            </a>  
+          
+            <a href="/archives/" class="Btn">
+              <li>Blog Archive</li>
+            </a>  
+          
+        </ul>
+    </section>
+    <section class="media">
+        
+            
+                <a href="https://keybase.io/patitsas">
+                    <img src="/assets/keybase.svg">
+                </a>
+            
+        
+            
+                <a href="https://scholar.google.ca/citations?user=cOpNre8AAAAJ&hl=en&oi=ao">
+                    <img src="/assets/gscholar.svg">
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/patitsel">
+                    <img src="/assets/twitter.svg">
+                </a>
+            
+        
+            
+                <a href="https://github.com/patitsas">
+                    <img src="/assets/github.svg">
+                </a>
+            
+        
+            
+                <a href="/atom.xml">
+                    <img src="/assets/rss.svg">
+                </a>
+            
+        
+    </section>
+</aside>
+
+    <div class="container">
+        <div data-pager-shell>
+            <ul class="Index">
+  
+    <header class="PageTitle">
+        <h1>{ cybersecurity }</h1>
+    </header>
+  
+  
+    <li>
+      <article class="ListView">
+    <header class="title">
+      
+        <h1>
+          <a href="/2017/02/26/Introducing-Computer-Science-via-Online-Security-An-Experience-Report/">Introducing Computer Science via Online Security: An Experience Report</a>
+        </h1>
+      
+      <div class="ListMeta">
+  <time datetime="2017-02-26T17:42:37.000Z" itemprop="datePublished">
+    2017-02-26
+  </time>
+  
+  | 
+  <ul>
+    
+  <li class="meta-text">
+  { <a href="/tags/computer-science-education/">computer science education</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/computing-as-literacy/">computing as literacy</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/cybersecurity/">cybersecurity</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/teaching/">teaching</a> }
+  </li>
+
+
+  </ul>
+  
+  
+</div>
+
+    </header>
+    <div>
+      
+        <p>Last weekend I spent two hours teaching an informal introduction to online security to an audience of political activists. I wound up teaching a fair bit of computer science in the process and I’m writing up this experience report because I think it’s a valuable way to teach introductory computer science.</p>
+<p>Before I put together my lesson plan I spent a fair bit of time looking at other people’s introductions. Broadly, they fell into two categories:<br>1. Introductions for CS students, which would include things like how to write your own HTTPS server or proofs about why RSA works (too advanced for my audience)<br>2. Instructions for what software you should download to stay secure.</p>
+<p>I’m a member of the political organization from which my audience came. People regularly post articles which fall into category 2 on the online community for the group. And not unsurprisingly, these articles have had limited effects on getting people to change their behaviour. This was why I’d volunteered to teach the workshop. I’d initially planned it to be all about the software to install to stay safe.</p>
+<p>As I put together my lesson plan I had a change of idea for the goal of the workshop. In my experience teaching introductory programming, students struggle for the first few weeks because they don’t understand <em>why</em> they should be learning this or what it gets them. I started to think something similar might be going on here: a typical article telling you to install Signal and HTTPS Everywhere doesn’t sufficiently motivate <em>why</em> it’s necessary and what’s going on technically.</p>
+<p>Computer scientists like myself think of the internet in a very different way than my activist friends. My activist friends see the internet as a mystical black box.</p>
+<p>My learning goal for the workshop hence became:<strong> to demystify the internet</strong>.</p>
+<p><a name="more"></a></p>
+<h4 id="What-I-taught"><a href="#What-I-taught" class="headerlink" title="What I taught"></a>What I taught</h4><p>I gave some homework to my “class”: <a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M&amp;list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7" target="_blank" rel="noopener">to watch this series of videos from code.org</a> on how the internet works. I’d spent some time on youtube watching videos on how the internet works and conclude those were the best out there.</p>
+<p>The videos are quite lovely and well-produced. They, however, do something I don’t like: they talk about data as being mystical 1s and 0s. So I started the workshop with demystifying how data is stored.</p>
+<h3 id="Files-and-Encodings"><a href="#Files-and-Encodings" class="headerlink" title="Files and Encodings"></a>Files and Encodings</h3><p>I went over character encoding. We talked about ASCII, unicode, and encodings for languages other than English. I talked about how this entire setup was America-centric, and the pains that non-English writers have had as a result.</p>
+<p>From there we talked about other file encodings. I walked through an extremely simplified bmp encoding. We then talked about compression and encodings like jpg. I hadn’t expected to bring compression into the mix but it came up in the questions.</p>
+<p>I then asked the group, “so what is a file?” I got the same blank looks I get from my first year computer science students when I introduce file I/O. Most computer scientists tend not to realize how much difficulty novices have with the concept of a file.</p>
+<p>In our group discussion about files I wound up explaining what virtual memory is and some basics about file systems. This was another piece of computer science that came up through class discussion that I hadn’t expected would come up (but was excited to see!)</p>
+<p>We then talked about metadata and, from there, how much information you can get from somebody’s metadata.</p>
+<h3 id="Networking-nbsp"><a href="#Networking-nbsp" class="headerlink" title="Networking&nbsp;"></a>Networking&nbsp;</h3><p>I then shifted gears to talk about “suppose we want to share a file”. From the videos my audience already had seen the notion of a packet. We talked about how a file (and any other information) will be broken into packets to be sent over a network.</p>
+<p>I then talked about pre-internet networks. I talked about hubs and routers and in retrospect I should have left out hubs. I think hubs added confusion.</p>
+<p>We then walked through an example of how UDP works.</p>
+<h3 id="Internetworking"><a href="#Internetworking" class="headerlink" title="Internetworking"></a>Internetworking</h3><p>Then I started talking about internetworking, and how the internet is a network of networks. I explained what a LAN is, then a WAN. Everybody had heard of an ISP before but was kind of fuzzy on what they do.</p>
+<p>The code.org videos didn’t go into what ISPs do or how data is shared between ISP. I talked about IXPs, the internet backbone, and the landing stations for intercontinental cable/fibre lines — and how those are common targets for government eavesdropping (see: Diebert’s “Black Code”).</p>
+<p>In retrospect I wish I’d spent even more time on that part, and talked about tiers of ISPs, as well as net neutrality. I wish I’d also shown a couple examples of traceroutes and how data sent from a computer in Toronto to a computer in Vancouver will most likely go through the USA, which undermines legislation trying to keep sensitive data on Canadian servers.</p>
+<p>Once we’d covered how the internet is structured, we talked about TCP then IP. We talked about IP. Again we returned to how the internet has been structured in an America-centric fashion: how IPv4 addresses were allocated.</p>
+<p>Were I to do this part again I’d spend more time on it and talk about RIRs and how they’re governed.</p>
+<p>From IP addresses we talked about DNS. Again, more American neocolonialism was discussed with how TLDs were setup. We talked ICANN. My audience was fascinated by learning about ICANN and similar governance bodies and we would up on a tangent about how FOSS works and how to get involved in FOSS projects.</p>
+<p>We then talked about HTTP, and the protocol stack. We talked about some other applications such as SMTP, IMAP, XMPP, etc.</p>
+<p>I talked about ports and sockets and regretted it because I don’t think I did a good job of it. I don’t think it added much to their understanding either.</p>
+<p>At this point we’d been going for a bit over an hour and I figured this was a good place to stop and see if they had any questions about how networks work. One participant made an observation that the internet doesn’t seem to have been designed to be secure (yep) and we talked about this in more detail. Another participant asked about VPNs so we talked about those, but probably not in a satisfactory level of detail. I mentioned TOR in this discussion but didn’t do a very good job of explaining how TOR works — were I to do this again I would spend more time there.</p>
+<h3 id="Cryptography"><a href="#Cryptography" class="headerlink" title="Cryptography"></a>Cryptography</h3><p>After all this network talk, I shifted gears to talk about cryptography. I went over symmetric key encryption. As I went through it I wish I’d actually done this before talking about encoding, because there was confusion about whether the text or the encoding is what encrypted/decrypted.</p>
+<p>I talked about how the key is often the weakest link in symmetric key encryption and then started talking about Whitfield-Diffie. I gave a high level overview of asymmetric key encryption. At this this point I was running kind of behind where I expected to be so I rushed this, which was a shame. There was a fair bit of confusion about public vs. private keys, which is fairly confusing for novices (especially if you aren’t shown the underlying mathematics.)</p>
+<p>I talked about why asymmetric key encryption was necessary for the internet to work as we know it. Had I more time I would have loved to get into talking about P ?= NP.</p>
+<h3 id="Secure-Networking"><a href="#Secure-Networking" class="headerlink" title="Secure Networking"></a>Secure Networking</h3><p>We then got back to networking. I talked about SSL and HTTPS, and what it means when something is end-to-end-encrypted. I did not talk about certificate authorities due to time constraints but I wish I had.</p>
+<p>I then gave them <a href="https://www.cryptoparty.in/learn/tools" target="_blank" rel="noopener">this link to tools for security</a>, and mentioned a few of my favourites. I explained that security is a process, not an end-result, and one of my participants asked, “so how do we keep up to date on what’s secure?” and I still wish I had a good response for him. Most ways I keep up to date on these things are written for a tech-savvy audience.</p>
+<p>Finally we talked about human factors in security. This <a href="https://xkcd.com/538/" target="_blank" rel="noopener">xkcd came up</a>. We talked about the DNC email leaks.</p>
+<p>We then wrapped up. People told me I’d done a lot to demystify the internet for them. Heartingly, a bunch of people at the seminar have since installed many of the tools I told them about.</p>
+<h2 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h2><p>One thing I really liked about teaching this workshop was how much the students could talk about what’s going on. When I introduce CS via programming, it’s much harder to teach it in a student-directed fashion because the students have very little idea where to go next. With “how does the internet work?” my students had so many questions.</p>
+<p>I’d gone into the workshop with a lesson plan but then wound up covering things in different order because a somebody would ask a question and we’d go that direction. It was quite exciting for me to teach CS this way.</p>
+<p>Another nice thing about introducing CS via the internet vs. via programming is that this way we show the history of CS. CS is shown as a human endeavour that builds upon itself. You don’t really get to show this in the process of teaching programming to novices. </p>
+<h4 id="How-I’d-Teach-It-Again"><a href="#How-I’d-Teach-It-Again" class="headerlink" title="How I’d Teach It Again"></a>How I’d Teach It Again</h4><p>If I were to do the workshop again, I’d take four hours (two felt too rushed), with some breaks in there. I’d order it as:</p>
+<ul>
+<li>what is an algorithm?</li>
+<li>symmetric key crypto</li>
+<li>files and encoding</li>
+<li>computer networking</li>
+<li>internetworking</li>
+<li>asymmetric key crypto</li>
+<li>how to keep safe </li>
+</ul>
+<p>But better yet I’d love to teach this as a 12-week university course. There was so much in there that could be used to introduce computer science and garner interest from new communities. This course would complement any intro-to-programming class and they could be taken at the same time.</p>
+<p><a href="https://patitsas.blogspot.ca/2017/02/idea-for-new-way-to-introduce-computer.html" target="_blank" rel="noopener">I’ve written up what I’d cover in the 12 weeks here.</a></p>
+<p>I think a student taking such a course would walk out with a better sense of what CS is about than if they’d taken an introductory programming class. Certainly programming is a useful skill that many people benefit from learning (not just CS people), but many people walk out of their first CS class with the misconception that CS = programming.</p>
+<p>The material in this course is useful to a broad segment of society. Everybody uses the internet, but few people understand how it works. With internet security playing an increasing role in politics, this knowledge has become even more important in a democratic society.</p>
+
+      
+    </div>
+</article>
+
+    </li>
+  
+    <li>
+      <article class="ListView">
+    <header class="title">
+      
+        <h1>
+          <a href="/2017/02/26/Computer-Science-for-Future-Leaders/">Computer Science for Future Leaders</a>
+        </h1>
+      
+      <div class="ListMeta">
+  <time datetime="2017-02-26T07:17:10.000Z" itemprop="datePublished">
+    2017-02-26
+  </time>
+  
+  | 
+  <ul>
+    
+  <li class="meta-text">
+  { <a href="/tags/computer-science-education/">computer science education</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/computing-as-literacy/">computing as literacy</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/cybersecurity/">cybersecurity</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/introduction-to-cs/">introduction to cs</a> }
+  </li>
+
+
+  </ul>
+  
+  
+</div>
+
+    </header>
+    <div>
+      
+        <p>There’s a great physics course out there called Physics for Future Presidents. For some time I’ve been mulling over what a Computer Science for Future Presidents (and Prime Ministers) would look like.</p>
+<p>Last week I taught an introduction to online safety to a group of political activists (<a href="https://patitsas.blogspot.ca/2017/02/introducing-computer-science-via-online.html" target="_blank" rel="noopener">experience report here</a>). Along the way I taught a lot of introductory computer science and saw opportunities to cover even more. </p>
+<p>I’ve taught a number of introductory CS classes that are introductions to programming. Like a lot of computer scientists I appreciate coding as an important tool in CS, but don’t like how so many students walk out of their first (and potentially only) CS class with the idea that CS == programming. Computational thinking classes make for a good step away from this misconception but still don’t cover all the things I’d want future world leaders to know.</p>
+<p>The internet and cybersecurity makes a great way to introduce computing — and to cover what future world leaders need to know about computer science. </p>
+<p>This is what I’d cover in a 12 week course. This course would complement an introduction to programming and the two could be taken concurrently.</p>
+<p>###<br>Computer Science for Future Leaders</p>
+<ol>
+<li>Introduction to the course. Searching and sorting, and big O notation. I’d introduce binary and  linear search, and insertion, selection, and merge sorts. Motivate searching/sorting as necessary for internet  computing (indeed, 25% of the world’s CPU time is estimated to be spent  on sorting tasks.) Quick review of logarithms.2.  Symmetric key encryption. How to encrypt, some approaches for  breaking encryption (build on searching/sorting from last week). Big-O  of encryption/decryption algorithms.</li>
+<li>Graph theory. Define edges/vertices. How to find a shortest path over a  network, minimum spanning trees. Talk about costs on networks,  congestion, resilience/redundancy. Talk about where you’d want to  eavesdrop on a network for maximum coverage. Big-O of relevant graph algorithms.4.  Early communication networks. Talk about how telegraphs worked, how data was <em>encoded</em>.  Talk about pre-wireless phone networks and how that data is encoded.  Introduce some coding theory: error detection and correction over  networks.5.  What is a file? Character encoding, numerical representation, file encodings. Code lives in files too: HTML as example. What is a file system?</li>
+<li>Midterm. What is a computer? Early computers; command-line interfaces.7.  Pre-internet computer networks. Talk about packets, packet routing, packet switching. How routers work.</li>
+<li>Internetworking: how we can connect networks together. Internet  infrastructure (ISPs, IXPs, etc), TCP/IP, DNS. Who governs the various  components of the internet (ICANN, RIRs, etc).</li>
+<li>Asymmetric key cryptography. Why it was necessary for the internet to grow in popularity. Whitfield-Diffie, RSA, PGP. P and NP.</li>
+<li>Secure internetworking. SSL, HTTPS, TOR, VPNs, etc. Cookies. How internet surveillance and censorship work. Cyberwarfare. Dangers of online/computerized voting.</li>
+<li>Social networking. How social network websites work. What is their  business model? AI and machine learning on the internet, filter bubbles  and other biases resulting from machine learning.</li>
+<li>HCI of the internet. Usability issues on the internet. HCI approach  to security: who is in your personal network and how can you stay safe?<br>The whole course covers a lot of computer science: algorithms, theory of  computation, systems, networking, crypto, security, HCI, AI. You could add in a bit on databases if you wanted, too.</li>
+</ol>
+<p>Some big advantages of this approach to introducing computer science are:</p>
+<ul>
+<li>Students get a more accurate feel for what computer science is and what it’s about than in an introductory programming course.</li>
+<li>Students  see computer science as a human endeavour. It’s history is exposed, as  well as motivations for the major stages in its development.</li>
+<li>Similarly,  students see how CS is not value neutral. We discuss topics like  neocolonialism in technology development, the role of the military in  advancing computer science, how the internet is governed, and how the  internet affects politics.*   Students learn about computer security and the internet that is useful to their daily lives in a way that empowers them.&nbsp;</li>
+<li>Improving the state of our democracy. We need leaders and community members to understand these issues to make informed decisions.</li>
+</ul>
+
+      
+    </div>
+</article>
+
+    </li>
+  
+</ul>
+
+
+
+            <footer>
+    <div>© 2018 - Elizabeth Patitsas </div>
+    <div>
+        <span>
+            Powered by <a href="https://hexo.io">Hexo</a>
+        </span>
+        ,
+        <span>
+            Theme - <a href="https://github.com/nameoverflow/hexo-theme-icalm">Icalm</a>
+        </span>
+    </div>
+</footer>
+
+        </div>
+    </div>
+</div>
+<script src="/js/pager/dist/singlepager.js"></script>
+<script>
+var sp = new Pager('data-pager-shell')
+
+</script>
+</body>
+</html>
