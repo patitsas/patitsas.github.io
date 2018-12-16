@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-06T02:18:04.276Z</updated>
+  <updated>2018-12-16T18:39:46.722Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Reading List for Critical CS Education</title>
+    <link href="http://yoursite.com/2018/12/16/A-Reading-List-for-Critical-CS-Education/"/>
+    <id>http://yoursite.com/2018/12/16/A-Reading-List-for-Critical-CS-Education/</id>
+    <published>2018-12-16T18:10:51.000Z</published>
+    <updated>2018-12-16T18:39:46.722Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;One of the challenges of studying equity in computing is that while there is a lot of work on the subject, the topic lacks the
+        
+      
+    
+    </summary>
+    
+    
+      <category term="literature reviews" scheme="http://yoursite.com/tags/literature-reviews/"/>
+    
+      <category term="women in cs" scheme="http://yoursite.com/tags/women-in-cs/"/>
+    
+      <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="sts" scheme="http://yoursite.com/tags/sts/"/>
+    
+      <category term="computer science education" scheme="http://yoursite.com/tags/computer-science-education/"/>
+    
+      <category term="disability studies" scheme="http://yoursite.com/tags/disability-studies/"/>
+    
+      <category term="racial minorities" scheme="http://yoursite.com/tags/racial-minorities/"/>
+    
+  </entry>
   
   <entry>
     <title>Spoon Theory: A Form Of Capital</title>
@@ -38,11 +74,11 @@
     
       <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
     
+      <category term="disability studies" scheme="http://yoursite.com/tags/disability-studies/"/>
+    
       <category term="bourdieu" scheme="http://yoursite.com/tags/bourdieu/"/>
     
       <category term="autoethnography" scheme="http://yoursite.com/tags/autoethnography/"/>
-    
-      <category term="disability studies" scheme="http://yoursite.com/tags/disability-studies/"/>
     
   </entry>
   
@@ -100,9 +136,9 @@
     </summary>
     
     
-      <category term="diversity in cs" scheme="http://yoursite.com/tags/diversity-in-cs/"/>
-    
       <category term="women in cs" scheme="http://yoursite.com/tags/women-in-cs/"/>
+    
+      <category term="diversity in cs" scheme="http://yoursite.com/tags/diversity-in-cs/"/>
     
       <category term="cs enrolments" scheme="http://yoursite.com/tags/cs-enrolments/"/>
     
@@ -257,6 +293,42 @@
   </entry>
   
   <entry>
+    <title>Women in Computing As Problematic: A Summary</title>
+    <link href="http://yoursite.com/2016/03/14/Women-in-Computing-As-Problematic-A-Summary/"/>
+    <id>http://yoursite.com/2016/03/14/Women-in-Computing-As-Problematic-A-Summary/</id>
+    <published>2016-03-14T17:14:34.000Z</published>
+    <updated>2018-12-16T18:39:12.443Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I’ve long been interested in why, despite so much organized effort, there percentage of women in CS has been so stagnant. One hypothesis
+        
+      
+    
+    </summary>
+    
+    
+      <category term="women in cs" scheme="http://yoursite.com/tags/women-in-cs/"/>
+    
+      <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="history of cs" scheme="http://yoursite.com/tags/history-of-cs/"/>
+    
+      <category term="literature summaries" scheme="http://yoursite.com/tags/literature-summaries/"/>
+    
+      <category term="feminist analysis" scheme="http://yoursite.com/tags/feminist-analysis/"/>
+    
+      <category term="institutional ethnography" scheme="http://yoursite.com/tags/institutional-ethnography/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Getting Fedora 23 working on an Asus Zenbook UX305CA (Intel Skylake)</title>
     <link href="http://yoursite.com/2016/02/19/Getting-Fedora-23-working-on-an-Asus-Zenbook-UX305CA-Intel-Skylake/"/>
     <id>http://yoursite.com/2016/02/19/Getting-Fedora-23-working-on-an-Asus-Zenbook-UX305CA-Intel-Skylake/</id>
@@ -366,9 +438,9 @@
     </summary>
     
     
-      <category term="philosophy" scheme="http://yoursite.com/tags/philosophy/"/>
-    
       <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="philosophy" scheme="http://yoursite.com/tags/philosophy/"/>
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
@@ -448,9 +520,9 @@
     </summary>
     
     
-      <category term="systems thinking" scheme="http://yoursite.com/tags/systems-thinking/"/>
-    
       <category term="social theory" scheme="http://yoursite.com/tags/social-theory/"/>
+    
+      <category term="systems thinking" scheme="http://yoursite.com/tags/systems-thinking/"/>
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
@@ -551,66 +623,6 @@
       <category term="icer" scheme="http://yoursite.com/tags/icer/"/>
     
       <category term="travel" scheme="http://yoursite.com/tags/travel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bonuses and Software Projects</title>
-    <link href="http://yoursite.com/2014/06/28/Bonuses-and-Software-Projects/"/>
-    <id>http://yoursite.com/2014/06/28/Bonuses-and-Software-Projects/</id>
-    <published>2014-06-28T13:51:03.000Z</published>
-    <updated>2018-11-06T02:27:28.986Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-NET2tnpXIlg/UgRWQvHV3oI/AAAAAAAAAjQ/Al8qX4gIUtA/s1600/Individual+vs+Team.jpg&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="cs education" scheme="http://yoursite.com/tags/cs-education/"/>
-    
-      <category term="diversity in cs" scheme="http://yoursite.com/tags/diversity-in-cs/"/>
-    
-      <category term="research" scheme="http://yoursite.com/tags/research/"/>
-    
-      <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Comparing and contrasting algorithms is better than sequential presentation</title>
-    <link href="http://yoursite.com/2014/06/28/Comparing-and-contrasting-algorithms-is-better-than-sequential-presentation/"/>
-    <id>http://yoursite.com/2014/06/28/Comparing-and-contrasting-algorithms-is-better-than-sequential-presentation/</id>
-    <published>2014-06-28T13:49:36.000Z</published>
-    <updated>2018-11-06T02:27:28.986Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;In five days, I’ll be heading to &lt;a href=&quot;http://icer.hosting.acm.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICER 2013&lt;/a&gt; in San Diego, where
-        
-      
-    
-    </summary>
-    
-    
-      <category term="cs education" scheme="http://yoursite.com/tags/cs-education/"/>
-    
-      <category term="research" scheme="http://yoursite.com/tags/research/"/>
-    
-      <category term="cs2" scheme="http://yoursite.com/tags/cs2/"/>
-    
-      <category term="psychology of programming" scheme="http://yoursite.com/tags/psychology-of-programming/"/>
     
   </entry>
   
