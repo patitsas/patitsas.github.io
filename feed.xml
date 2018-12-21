@@ -8,8 +8,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>Assistant professor</description>
-    <pubDate>Sun, 16 Dec 2018 18:39:46 GMT</pubDate>
+    <pubDate>Fri, 21 Dec 2018 06:29:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Chronodiversity is a Feminist Issue</title>
+      <link>http://patitsas.github.io/2018/12/20/Chronodiversity-is-a-Feminist-Issue/</link>
+      <guid>http://patitsas.github.io/2018/12/20/Chronodiversity-is-a-Feminist-Issue/</guid>
+      <pubDate>Fri, 21 Dec 2018 01:16:31 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;!---
+Sleep has, in recent decades, been increasingly the subject of scientific study. The term *chronotype* was coined to an individiual&#39;s
+          
+        
+      
+      </description>
+      
+      <comments>http://patitsas.github.io/2018/12/20/Chronodiversity-is-a-Feminist-Issue/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>A Reading List for Critical CS Education</title>
@@ -389,26 +410,6 @@
       </description>
       
       <comments>http://patitsas.github.io/2014/11/12/Categorizing-Interventions-Adapting-the-USI-Model-to-CS-Education/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Highlights from ICER 2013</title>
-      <link>http://patitsas.github.io/2014/06/28/Highlights-from-ICER-2013/</link>
-      <guid>http://patitsas.github.io/2014/06/28/Highlights-from-ICER-2013/</guid>
-      <pubDate>Sat, 28 Jun 2014 13:52:42 GMT</pubDate>
-      <description>
-      
-        
-        
-          
-          
-            &lt;p&gt;A few weeks back, I attended ICER 2013 at UC San Diego. Afterwards, I  went up to San Francisco and had some adventures there (and at 
-          
-        
-      
-      </description>
-      
-      <comments>http://patitsas.github.io/2014/06/28/Highlights-from-ICER-2013/#disqus_thread</comments>
     </item>
     
   </channel>
