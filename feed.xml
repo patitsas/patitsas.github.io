@@ -8,8 +8,28 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>Assistant professor</description>
-    <pubDate>Sun, 16 Dec 2018 18:39:46 GMT</pubDate>
+    <pubDate>Thu, 22 Aug 2019 00:45:13 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Adding Disability To Your Syllabus</title>
+      <link>http://patitsas.github.io/2019/08/21/Adding-Disability-To-Your-Syllabus/</link>
+      <guid>http://patitsas.github.io/2019/08/21/Adding-Disability-To-Your-Syllabus/</guid>
+      <pubDate>Thu, 22 Aug 2019 00:40:22 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;In the past year, I’ve been finding ways to infuse Disability Studies into the education courses I teach. Since a few friends and
+          
+        
+      
+      </description>
+      
+      <comments>http://patitsas.github.io/2019/08/21/Adding-Disability-To-Your-Syllabus/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>A Reading List for Critical CS Education</title>
@@ -389,26 +409,6 @@
       </description>
       
       <comments>http://patitsas.github.io/2014/11/12/Categorizing-Interventions-Adapting-the-USI-Model-to-CS-Education/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Highlights from ICER 2013</title>
-      <link>http://patitsas.github.io/2014/06/28/Highlights-from-ICER-2013/</link>
-      <guid>http://patitsas.github.io/2014/06/28/Highlights-from-ICER-2013/</guid>
-      <pubDate>Sat, 28 Jun 2014 13:52:42 GMT</pubDate>
-      <description>
-      
-        
-        
-          
-          
-            &lt;p&gt;A few weeks back, I attended ICER 2013 at UC San Diego. Afterwards, I  went up to San Francisco and had some adventures there (and at 
-          
-        
-      
-      </description>
-      
-      <comments>http://patitsas.github.io/2014/06/28/Highlights-from-ICER-2013/#disqus_thread</comments>
     </item>
     
   </channel>
