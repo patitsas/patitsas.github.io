@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,14 +15,14 @@
 
 <body>
 <div class="Shell">
-    <aside class="SideBar">
-    <section class="avatar" style="background-image: url()">
-        <div class="av-pic" style="background-image: url(https://patitsas.github.io/assets/profile.jpg)">
+    <aside class='SideBar'>
+    <section class='avatar' style="background-image: url()">
+        <div class='av-pic' style="background-image: url(https://patitsas.github.io/assets/profile.jpg)">
         </div>
     </section>
-    <section class="menu">
-        <br>
-        <h3 class="class">Elizabeth Patitsas</h3>
+    <section class='menu'>
+        <br/>
+        <h3 class='class'>Elizabeth Patitsas</h3>
         
             <div>Sociology of CS education</div>
         
@@ -68,25 +68,25 @@
         
             
                 <a href="https://keybase.io/patitsas">
-                    <img src="/assets/keybase.svg">
+                    <img src="/assets/keybase.svg" />
                 </a>
             
         
             
                 <a href="https://scholar.google.ca/citations?user=cOpNre8AAAAJ&hl=en&oi=ao">
-                    <img src="/assets/gscholar.svg">
+                    <img src="/assets/gscholar.svg" />
                 </a>
             
         
             
                 <a href="https://twitter.com/patitsel">
-                    <img src="/assets/twitter.svg">
+                    <img src="/assets/twitter.svg" />
                 </a>
             
         
             
                 <a href="https://patitsas.github.io/feed.xml">
-                    <img src="/assets/rss.svg">
+                    <img src="/assets/rss.svg" />
                 </a>
             
         
@@ -97,20 +97,20 @@
         <div data-pager-shell>
             <ul class="Index">
   
-    <header class="PageTitle">
+    <header class='PageTitle'>
         <h1>{ grades distributions }</h1>
     </header>
   
   
     <li>
-      <article class="ListView">
+      <article class='ListView'>
     <header class="title">
       
         <h1>
           <a href="/2016/03/22/CS-grades-probably-more-normal-than-you-think-they-are/">CS grades: probably more normal than you think they are</a>
         </h1>
       
-      <div class="ListMeta">
+      <div class='ListMeta'>
   <time datetime="2016-03-22T23:52:46.000Z" itemprop="datePublished">
     2016-03-22
   </time>
@@ -148,7 +148,7 @@
 <p>Here’s the thing: eyeballing a distribution is unreliable. If you gave me some graphs of real-world data, I wouldn’t be able to tell on a quick glance whether they’re, say, Gaussian or Poissonian. And if I expected it to be one of the two, confirmation bias and <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" target="_blank" rel="noopener">System 1 Thinking</a> would probably result in me concluding that it looks like my expectation.</p>
 <p>Two peaks on real world data don’t necessarily mean you have a bimodal distribution, particularly when the two peaks are close together. A bimodal distribution means you have two different normal distributions added together (because you’re sampling two different populations at the same time).</p>
 <p>It’s quite common for normal distributions to have two “peaks”, due to noise in the data. Or the way the data was binned. Indeed, the Wikipedia article on <a href="https://en.wikipedia.org/wiki/Normal_distribution" target="_blank" rel="noopener">Normal distribution</a> has this histogram of real world data that is considered normal – but has two peaks:</p>
-<p><div class="separator" style="clear: both; text-align: center;"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/220px-Fisher_iris_versicolor_sepalwidth.svg.png" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/220px-Fisher_iris_versicolor_sepalwidth.svg.png" alt=""></a></div>And since this graph looks in all honesty like a lot of the grades distributions I’ve seen, I decided I’d statistically test whether CS grades distributions are normal vs. bimodal. I got my hands on the final grades distributions of all the undergraduate CS classes at the University of British Columbia (UBC), from 1996 to 2013. That came out to 778 different lecture sections, containing a total of 30,214 final grades (average class size: 75).</p>
+<p><div class="separator" style="clear: both; text-align: center;"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/220px-Fisher_iris_versicolor_sepalwidth.svg.png" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/220px-Fisher_iris_versicolor_sepalwidth.svg.png" alt></a></div>And since this graph looks in all honesty like a lot of the grades distributions I’ve seen, I decided I’d statistically test whether CS grades distributions are normal vs. bimodal. I got my hands on the final grades distributions of all the undergraduate CS classes at the University of British Columbia (UBC), from 1996 to 2013. That came out to 778 different lecture sections, containing a total of 30,214 final grades (average class size: 75).</p>
 <h1 id="How-do-you-test-for-normality-vs-bimodality"><a href="#How-do-you-test-for-normality-vs-bimodality" class="headerlink" title="How do you test for normality vs bimodality?"></a>How do you test for normality vs bimodality?</h1><p>There are a bunch of ways to test whether some data are consistent with a particular statistical distribution.</p>
 <p>One way is to fit your data to whatever formula describes that distribution. You can then eyeball whether your resulting curve matches the data, or you could look at the residuals, or even do a goodness of fit test. <span style="font-size: x-small;">(It’s worth noting that you <em>could</em> fit a normal distribution as bimodal – the two sub-distributions would be extremely close together! If you can fit a normal distribution to it, this is a simpler explanation of the data – Occam’s razor and all.)</span></p>
 <p>Another way is to use a pre-established statistical test which will allow you to reject/accept a null hypothesis about the nature of your data. I went this route, for the ease of checking hundreds of different distributions and comparing them.</p>
@@ -179,7 +179,7 @@
 
 
             <footer>
-    <div>© 2019 - Elizabeth Patitsas </div>
+    <div>© 2020 - Elizabeth Patitsas </div>
     <div>
         <span>
             Powered by <a href="https://hexo.io">Hexo</a>
