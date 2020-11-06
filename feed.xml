@@ -8,8 +8,28 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>Assistant professor</description>
-    <pubDate>Thu, 22 Aug 2019 01:02:25 GMT</pubDate>
+    <pubDate>Mon, 07 Sep 2020 01:15:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Critical Pedagogy: A User Guide</title>
+      <link>http://patitsas.github.io/2020/08/31/Critical-Pedagogy-A-User-Guide/</link>
+      <guid>http://patitsas.github.io/2020/08/31/Critical-Pedagogy-A-User-Guide/</guid>
+      <pubDate>Tue, 01 Sep 2020 01:08:48 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;Much has been written about student-centred pedagogies, yet surprisingly little has been written for the &lt;em&gt;students&lt;/em&gt;. &lt;!---In this
+          
+        
+      
+      </description>
+      
+      <comments>http://patitsas.github.io/2020/08/31/Critical-Pedagogy-A-User-Guide/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Adding Disability To Your Syllabus</title>
@@ -389,26 +409,6 @@
       </description>
       
       <comments>http://patitsas.github.io/2014/11/13/Fun-and-educational-halloween-costumes-Grace-Hopper/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Categorizing Interventions: Adapting the USI Model to CS Education</title>
-      <link>http://patitsas.github.io/2014/11/12/Categorizing-Interventions-Adapting-the-USI-Model-to-CS-Education/</link>
-      <guid>http://patitsas.github.io/2014/11/12/Categorizing-Interventions-Adapting-the-USI-Model-to-CS-Education/</guid>
-      <pubDate>Wed, 12 Nov 2014 23:25:48 GMT</pubDate>
-      <description>
-      
-        
-        
-          
-          
-            &lt;p&gt;I’m interested in studying diversity initiatives in CS education – and in doing so I consider it helpful to have a model of the
-          
-        
-      
-      </description>
-      
-      <comments>http://patitsas.github.io/2014/11/12/Categorizing-Interventions-Adapting-the-USI-Model-to-CS-Education/#disqus_thread</comments>
     </item>
     
   </channel>
