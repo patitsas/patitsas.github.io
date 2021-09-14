@@ -119,15 +119,15 @@
   <ul>
     
   <li class="meta-text">
-  { <a href="/tags/social-theory/">social theory</a> }
-  </li>
-
-  <li class="meta-text">
   { <a href="/tags/literature-reviews/">literature reviews</a> }
   </li>
 
   <li class="meta-text">
   { <a href="/tags/women-in-cs/">women in cs</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/social-theory/">social theory</a> }
   </li>
 
   <li class="meta-text">
@@ -162,6 +162,338 @@
         <p>One of the challenges of studying equity in computing is that while there is a lot of work on the subject, the topic lacks the infrastructure of a well-established (sub)field. For example, when I was a PhD student studying for my qualifying exam, there was not a pre-established list of texts for me to study. When students and colleagues ask me for readings on equity in CS I tend to start from scratch each time, and will miss things.</p>
 <p>To solve these issues, I’ve put together a <a href="https://tinyurl.com/criticalCS" target="_blank" rel="noopener">reading list on critical prespectives on equity in computing</a>. The list is heavily annotated for guidance, and importanty covers foundational texts in areas that a criticial approach to computing equity should draw on (e.g. critical pedagogy, Science and Technology Studies, Gender Work &amp; Organization, critical disability studies, critical race studies).</p>
 <p>I welcome feedback on the list. Hopefully you’ll find it useful!</p>
+
+      
+    </div>
+</article>
+
+    </li>
+  
+    <li>
+      <article class='ListView'>
+    <header class="title">
+      
+        <h1>
+          <a href="/2017/02/26/Introducing-Computer-Science-via-Online-Security-An-Experience-Report/">Introducing Computer Science via Online Security: An Experience Report</a>
+        </h1>
+      
+      <div class='ListMeta'>
+  <time datetime="2017-02-26T17:42:37.000Z" itemprop="datePublished">
+    2017-02-26
+  </time>
+  
+  | 
+  <ul>
+    
+  <li class="meta-text">
+  { <a href="/tags/computer-science-education/">computer science education</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/teaching/">teaching</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/computing-as-literacy/">computing as literacy</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/cybersecurity/">cybersecurity</a> }
+  </li>
+
+
+  </ul>
+  
+  
+</div>
+
+    </header>
+    <div>
+      
+        <p>Last weekend I spent two hours teaching an informal introduction to online security to an audience of political activists. I wound up teaching a fair bit of computer science in the process and I’m writing up this experience report because I think it’s a valuable way to teach introductory computer science.</p>
+<p>Before I put together my lesson plan I spent a fair bit of time looking at other people’s introductions. Broadly, they fell into two categories:<br>1. Introductions for CS students, which would include things like how to write your own HTTPS server or proofs about why RSA works (too advanced for my audience)<br>2. Instructions for what software you should download to stay secure.</p>
+<p>I’m a member of the political organization from which my audience came. People regularly post articles which fall into category 2 on the online community for the group. And not unsurprisingly, these articles have had limited effects on getting people to change their behaviour. This was why I’d volunteered to teach the workshop. I’d initially planned it to be all about the software to install to stay safe.</p>
+<p>As I put together my lesson plan I had a change of idea for the goal of the workshop. In my experience teaching introductory programming, students struggle for the first few weeks because they don’t understand <em>why</em> they should be learning this or what it gets them. I started to think something similar might be going on here: a typical article telling you to install Signal and HTTPS Everywhere doesn’t sufficiently motivate <em>why</em> it’s necessary and what’s going on technically.</p>
+<p>Computer scientists like myself think of the internet in a very different way than my activist friends. My activist friends see the internet as a mystical black box.</p>
+<p>My learning goal for the workshop hence became:<strong> to demystify the internet</strong>.</p>
+<p><a name="more"></a></p>
+<h4 id="What-I-taught"><a href="#What-I-taught" class="headerlink" title="What I taught"></a>What I taught</h4><p>I gave some homework to my “class”: <a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M&amp;list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7" target="_blank" rel="noopener">to watch this series of videos from code.org</a> on how the internet works. I’d spent some time on youtube watching videos on how the internet works and conclude those were the best out there.</p>
+<p>The videos are quite lovely and well-produced. They, however, do something I don’t like: they talk about data as being mystical 1s and 0s. So I started the workshop with demystifying how data is stored.</p>
+<h3 id="Files-and-Encodings"><a href="#Files-and-Encodings" class="headerlink" title="Files and Encodings"></a>Files and Encodings</h3><p>I went over character encoding. We talked about ASCII, unicode, and encodings for languages other than English. I talked about how this entire setup was America-centric, and the pains that non-English writers have had as a result.</p>
+<p>From there we talked about other file encodings. I walked through an extremely simplified bmp encoding. We then talked about compression and encodings like jpg. I hadn’t expected to bring compression into the mix but it came up in the questions.</p>
+<p>I then asked the group, “so what is a file?” I got the same blank looks I get from my first year computer science students when I introduce file I/O. Most computer scientists tend not to realize how much difficulty novices have with the concept of a file.</p>
+<p>In our group discussion about files I wound up explaining what virtual memory is and some basics about file systems. This was another piece of computer science that came up through class discussion that I hadn’t expected would come up (but was excited to see!)</p>
+<p>We then talked about metadata and, from there, how much information you can get from somebody’s metadata.</p>
+<h3 id="Networking-nbsp"><a href="#Networking-nbsp" class="headerlink" title="Networking&nbsp;"></a>Networking&nbsp;</h3><p>I then shifted gears to talk about “suppose we want to share a file”. From the videos my audience already had seen the notion of a packet. We talked about how a file (and any other information) will be broken into packets to be sent over a network.</p>
+<p>I then talked about pre-internet networks. I talked about hubs and routers and in retrospect I should have left out hubs. I think hubs added confusion.</p>
+<p>We then walked through an example of how UDP works.</p>
+<h3 id="Internetworking"><a href="#Internetworking" class="headerlink" title="Internetworking"></a>Internetworking</h3><p>Then I started talking about internetworking, and how the internet is a network of networks. I explained what a LAN is, then a WAN. Everybody had heard of an ISP before but was kind of fuzzy on what they do.</p>
+<p>The code.org videos didn’t go into what ISPs do or how data is shared between ISP. I talked about IXPs, the internet backbone, and the landing stations for intercontinental cable/fibre lines — and how those are common targets for government eavesdropping (see: Diebert’s “Black Code”).</p>
+<p>In retrospect I wish I’d spent even more time on that part, and talked about tiers of ISPs, as well as net neutrality. I wish I’d also shown a couple examples of traceroutes and how data sent from a computer in Toronto to a computer in Vancouver will most likely go through the USA, which undermines legislation trying to keep sensitive data on Canadian servers.</p>
+<p>Once we’d covered how the internet is structured, we talked about TCP then IP. We talked about IP. Again we returned to how the internet has been structured in an America-centric fashion: how IPv4 addresses were allocated.</p>
+<p>Were I to do this part again I’d spend more time on it and talk about RIRs and how they’re governed.</p>
+<p>From IP addresses we talked about DNS. Again, more American neocolonialism was discussed with how TLDs were setup. We talked ICANN. My audience was fascinated by learning about ICANN and similar governance bodies and we would up on a tangent about how FOSS works and how to get involved in FOSS projects.</p>
+<p>We then talked about HTTP, and the protocol stack. We talked about some other applications such as SMTP, IMAP, XMPP, etc.</p>
+<p>I talked about ports and sockets and regretted it because I don’t think I did a good job of it. I don’t think it added much to their understanding either.</p>
+<p>At this point we’d been going for a bit over an hour and I figured this was a good place to stop and see if they had any questions about how networks work. One participant made an observation that the internet doesn’t seem to have been designed to be secure (yep) and we talked about this in more detail. Another participant asked about VPNs so we talked about those, but probably not in a satisfactory level of detail. I mentioned TOR in this discussion but didn’t do a very good job of explaining how TOR works — were I to do this again I would spend more time there.</p>
+<h3 id="Cryptography"><a href="#Cryptography" class="headerlink" title="Cryptography"></a>Cryptography</h3><p>After all this network talk, I shifted gears to talk about cryptography. I went over symmetric key encryption. As I went through it I wish I’d actually done this before talking about encoding, because there was confusion about whether the text or the encoding is what encrypted/decrypted.</p>
+<p>I talked about how the key is often the weakest link in symmetric key encryption and then started talking about Whitfield-Diffie. I gave a high level overview of asymmetric key encryption. At this this point I was running kind of behind where I expected to be so I rushed this, which was a shame. There was a fair bit of confusion about public vs. private keys, which is fairly confusing for novices (especially if you aren’t shown the underlying mathematics.)</p>
+<p>I talked about why asymmetric key encryption was necessary for the internet to work as we know it. Had I more time I would have loved to get into talking about P ?= NP.</p>
+<h3 id="Secure-Networking"><a href="#Secure-Networking" class="headerlink" title="Secure Networking"></a>Secure Networking</h3><p>We then got back to networking. I talked about SSL and HTTPS, and what it means when something is end-to-end-encrypted. I did not talk about certificate authorities due to time constraints but I wish I had.</p>
+<p>I then gave them <a href="https://www.cryptoparty.in/learn/tools" target="_blank" rel="noopener">this link to tools for security</a>, and mentioned a few of my favourites. I explained that security is a process, not an end-result, and one of my participants asked, “so how do we keep up to date on what’s secure?” and I still wish I had a good response for him. Most ways I keep up to date on these things are written for a tech-savvy audience.</p>
+<p>Finally we talked about human factors in security. This <a href="https://xkcd.com/538/" target="_blank" rel="noopener">xkcd came up</a>. We talked about the DNC email leaks.</p>
+<p>We then wrapped up. People told me I’d done a lot to demystify the internet for them. Heartingly, a bunch of people at the seminar have since installed many of the tools I told them about.</p>
+<h2 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h2><p>One thing I really liked about teaching this workshop was how much the students could talk about what’s going on. When I introduce CS via programming, it’s much harder to teach it in a student-directed fashion because the students have very little idea where to go next. With “how does the internet work?” my students had so many questions.</p>
+<p>I’d gone into the workshop with a lesson plan but then wound up covering things in different order because a somebody would ask a question and we’d go that direction. It was quite exciting for me to teach CS this way.</p>
+<p>Another nice thing about introducing CS via the internet vs. via programming is that this way we show the history of CS. CS is shown as a human endeavour that builds upon itself. You don’t really get to show this in the process of teaching programming to novices. </p>
+<h4 id="How-I’d-Teach-It-Again"><a href="#How-I’d-Teach-It-Again" class="headerlink" title="How I’d Teach It Again"></a>How I’d Teach It Again</h4><p>If I were to do the workshop again, I’d take four hours (two felt too rushed), with some breaks in there. I’d order it as:</p>
+<ul>
+<li>what is an algorithm?</li>
+<li>symmetric key crypto</li>
+<li>files and encoding</li>
+<li>computer networking</li>
+<li>internetworking</li>
+<li>asymmetric key crypto</li>
+<li>how to keep safe </li>
+</ul>
+<p>But better yet I’d love to teach this as a 12-week university course. There was so much in there that could be used to introduce computer science and garner interest from new communities. This course would complement any intro-to-programming class and they could be taken at the same time.</p>
+<p><a href="https://patitsas.blogspot.ca/2017/02/idea-for-new-way-to-introduce-computer.html" target="_blank" rel="noopener">I’ve written up what I’d cover in the 12 weeks here.</a></p>
+<p>I think a student taking such a course would walk out with a better sense of what CS is about than if they’d taken an introductory programming class. Certainly programming is a useful skill that many people benefit from learning (not just CS people), but many people walk out of their first CS class with the misconception that CS = programming.</p>
+<p>The material in this course is useful to a broad segment of society. Everybody uses the internet, but few people understand how it works. With internet security playing an increasing role in politics, this knowledge has become even more important in a democratic society.</p>
+
+      
+    </div>
+</article>
+
+    </li>
+  
+    <li>
+      <article class='ListView'>
+    <header class="title">
+      
+        <h1>
+          <a href="/2017/02/26/Computer-Science-for-Future-Leaders/">Computer Science for Future Leaders</a>
+        </h1>
+      
+      <div class='ListMeta'>
+  <time datetime="2017-02-26T07:17:10.000Z" itemprop="datePublished">
+    2017-02-26
+  </time>
+  
+  | 
+  <ul>
+    
+  <li class="meta-text">
+  { <a href="/tags/computer-science-education/">computer science education</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/computing-as-literacy/">computing as literacy</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/cybersecurity/">cybersecurity</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/introduction-to-cs/">introduction to cs</a> }
+  </li>
+
+
+  </ul>
+  
+  
+</div>
+
+    </header>
+    <div>
+      
+        <p>There’s a great physics course out there called Physics for Future Presidents. For some time I’ve been mulling over what a Computer Science for Future Presidents (and Prime Ministers) would look like.</p>
+<p>Last week I taught an introduction to online safety to a group of political activists (<a href="https://patitsas.blogspot.ca/2017/02/introducing-computer-science-via-online.html" target="_blank" rel="noopener">experience report here</a>). Along the way I taught a lot of introductory computer science and saw opportunities to cover even more. </p>
+<p>I’ve taught a number of introductory CS classes that are introductions to programming. Like a lot of computer scientists I appreciate coding as an important tool in CS, but don’t like how so many students walk out of their first (and potentially only) CS class with the idea that CS == programming. Computational thinking classes make for a good step away from this misconception but still don’t cover all the things I’d want future world leaders to know.</p>
+<p>The internet and cybersecurity makes a great way to introduce computing — and to cover what future world leaders need to know about computer science. </p>
+<p>This is what I’d cover in a 12 week course. This course would complement an introduction to programming and the two could be taken concurrently.</p>
+<p>###<br>Computer Science for Future Leaders</p>
+<ol>
+<li>Introduction to the course. Searching and sorting, and big O notation. I’d introduce binary and  linear search, and insertion, selection, and merge sorts. Motivate searching/sorting as necessary for internet  computing (indeed, 25% of the world’s CPU time is estimated to be spent  on sorting tasks.) Quick review of logarithms.2.  Symmetric key encryption. How to encrypt, some approaches for  breaking encryption (build on searching/sorting from last week). Big-O  of encryption/decryption algorithms.</li>
+<li>Graph theory. Define edges/vertices. How to find a shortest path over a  network, minimum spanning trees. Talk about costs on networks,  congestion, resilience/redundancy. Talk about where you’d want to  eavesdrop on a network for maximum coverage. Big-O of relevant graph algorithms.4.  Early communication networks. Talk about how telegraphs worked, how data was <em>encoded</em>.  Talk about pre-wireless phone networks and how that data is encoded.  Introduce some coding theory: error detection and correction over  networks.5.  What is a file? Character encoding, numerical representation, file encodings. Code lives in files too: HTML as example. What is a file system?</li>
+<li>Midterm. What is a computer? Early computers; command-line interfaces.7.  Pre-internet computer networks. Talk about packets, packet routing, packet switching. How routers work.</li>
+<li>Internetworking: how we can connect networks together. Internet  infrastructure (ISPs, IXPs, etc), TCP/IP, DNS. Who governs the various  components of the internet (ICANN, RIRs, etc).</li>
+<li>Asymmetric key cryptography. Why it was necessary for the internet to grow in popularity. Whitfield-Diffie, RSA, PGP. P and NP.</li>
+<li>Secure internetworking. SSL, HTTPS, TOR, VPNs, etc. Cookies. How internet surveillance and censorship work. Cyberwarfare. Dangers of online/computerized voting.</li>
+<li>Social networking. How social network websites work. What is their  business model? AI and machine learning on the internet, filter bubbles  and other biases resulting from machine learning.</li>
+<li>HCI of the internet. Usability issues on the internet. HCI approach  to security: who is in your personal network and how can you stay safe?<br>The whole course covers a lot of computer science: algorithms, theory of  computation, systems, networking, crypto, security, HCI, AI. You could add in a bit on databases if you wanted, too.</li>
+</ol>
+<p>Some big advantages of this approach to introducing computer science are:</p>
+<ul>
+<li>Students get a more accurate feel for what computer science is and what it’s about than in an introductory programming course.</li>
+<li>Students  see computer science as a human endeavour. It’s history is exposed, as  well as motivations for the major stages in its development.</li>
+<li>Similarly,  students see how CS is not value neutral. We discuss topics like  neocolonialism in technology development, the role of the military in  advancing computer science, how the internet is governed, and how the  internet affects politics.*   Students learn about computer security and the internet that is useful to their daily lives in a way that empowers them.&nbsp;</li>
+<li>Improving the state of our democracy. We need leaders and community members to understand these issues to make informed decisions.</li>
+</ul>
+
+      
+    </div>
+</article>
+
+    </li>
+  
+    <li>
+      <article class='ListView'>
+    <header class="title">
+      
+        <h1>
+          <a href="/2016/01/28/On-Paulo-Freire-and-seeing-computing-as-literacy/">On Paulo Freire, and seeing computing as literacy</a>
+        </h1>
+      
+      <div class='ListMeta'>
+  <time datetime="2016-01-29T01:41:24.000Z" itemprop="datePublished">
+    2016-01-28
+  </time>
+  
+  | 
+  <ul>
+    
+  <li class="meta-text">
+  { <a href="/tags/computer-science-education/">computer science education</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/computing-as-literacy/">computing as literacy</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/critical-pedagogy/">critical pedagogy</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/freire/">freire</a> }
+  </li>
+
+
+  </ul>
+  
+  
+</div>
+
+    </header>
+    <div>
+      
+        <p>Paulo Freire was a Brazilian educator, best known for his book <em>Pedagogy of the Oppressed</em>. Indeed, it’s <a href="http://explorer.opensyllabusproject.org/" target="_blank" rel="noopener">the most commonly assigned reading in education classes</a> which isn’t a textbook. His ideas have been used for teaching many topics, such as <a href="http://www.ncbi.nlm.nih.gov/pubmed/3230016" target="_blank" rel="noopener">health</a> and <a href="http://www.amazon.com/Teaching-Transgress-Education-Practice-Translation/dp/0415908086" target="_blank" rel="noopener">African American studies</a>. And yet, most people in CS education circles aren’t familiar with Freire. In this post I’ll provide a short introduction to Freire and why his work is relevant to computing education.</p>
+<p>To Freire, education is an inherently political act. Education can be a tool of empowerment, and it can also be a tool of oppression. Freire refered to traditional education as the “banking model”: the teacher deposits coins of knowledge into the bank accounts of the students. _”Instead of communicating, the teacher issues communiques and makes deposits which the students patiently receive, memorize, and repeat. This is the “banking” concept of education, in which the scope of action allowed to students extends only as far as receiving, filing, and storing the deposits.” _(Freire, 1968)</p>
+<p>This model ignores what the student already may know. It fails to give the students a sense of ownership over their knowledge, and fails to stimulate critical thinking. He argued this reinforces oppression. For education to be empowering, students need to be active agents in their own learning.</p>
+<p><a name="more"></a></p>
+<h2 id="Problem-Posing-Education"><a href="#Problem-Posing-Education" class="headerlink" title="Problem Posing Education"></a>Problem Posing Education</h2><p>As an educator, Freire focused on literacy education. He and his colleagues ran community-based literacy education projects for Brazil’s poor, focusing on adult education. He championed what he called problem-posing education, which focuses on <em>“listening, dialogue, and action”</em>.</p>
+<p>As his teams implemented education, they first spent time observing what their students do in their everyday. What written words the students encountered but could not read. What texts the members of the community would observe. They <strong>listened</strong>, observed, and tailored their curricula around what the people of that community would benefit from learning.</p>
+<p>Teaching was done as a <strong>dialogue</strong>. Not just in a Socratic fashion, but also as sharing between teacher and student. To Freire, _”authentic education is not carried on by “A” for “B” or by “A” about “B,” but rather by “A” with “B.”” <em>(Indeed,</em> _one of the reasons I enjoy teaching is how much I learn <em>from</em> my students.)</p>
+<p>Education didn’t end with the lesson: the goal of teaching is to empower the learner to <strong>action</strong>. His students could now read the news and understand local politics. They could now vote in a society where literacy was required for suffrage. They could now organize and advocate for their own interests. Freire didn’t consider his job done unless his students had acted using what they had learnt.</p>
+<h2 id="Computing-as-Literacy"><a href="#Computing-as-Literacy" class="headerlink" title="Computing as Literacy"></a>Computing as Literacy</h2><p>The view of computing as being like literacy has recently caught on. After all, computing is a sort of language, and it unlocks a level of literacy in society. Arguing that computational thinking is a form of literacy can be persuasive in policy circles. </p>
+<p>I don’t think the parallel between literacy and computing should end there. For example, Sally Fincher recently wrote a CACM piece <a href="http://cacm.acm.org/magazines/2015/5/186022-what-are-we-doing-when-we-teach-computing-in-schools/fulltext" target="_blank" rel="noopener">drawing parallels on literacy education and computing education</a>, which I think was quite insightful. We can learn from the lessons of literacy education.</p>
+<p>I think that like literacy, computing is incredibly empowering. In the age of the the computer, those of us with computer science knowledge have power that others do not.</p>
+<p>Our society has come to accept that universal literacy should be a right, and that everybody is capable of basic literacy. CS educators still aren’t there yet: there are still plenty who believe not everybody has the <a href="http://cacm.acm.org/blogs/blog-cacm/179347-anyone-can-learn-programming-teaching-genetics/fulltext" target="_blank" rel="noopener">“Geek Gene”</a> to understand computing. </p>
+<p>People used to think similar things about literacy. But as literacy education improved its methods, and learnt how to diagnose and teach people with disabilities, it became accepted that anybody can learn to read. Mark Guzdial has argued that the reason the Geek Gene hypothesis is so popular is because <a href="https://computinged.wordpress.com/2015/07/03/teacher-beliefs-reading-on-lijun-ni-learning-from-helenrose-fives-on-self-efficacy-and-geek-gene/" target="_blank" rel="noopener">we fundamentally don’t understand how to teach computer science</a>.</p>
+<h2 id="Learning-from-Freire"><a href="#Learning-from-Freire" class="headerlink" title="Learning from Freire"></a>Learning from Freire</h2><p>Most of the efforts trying to view computing as literacy have been  focusing on k-12 education, trying to inculcate a new generation. A Freirean approach would instead focus on adult  education: we can’t leave adults behind. And if we teach the  parents, the parents can teach the children.</p>
+<p>There’s some evidence that girls realize they don’t “belong” at the computer from watching their mothers’ lack of confidence at the computer (Margolis and Fisher, 2002). Teaching parents means teaching children.</p>
+<p>Talking to people trying to get CS into k-12, often the barriers are a lack of adult education. Teachers and principals don’t know about CS. Deans of education schools don’t know about CS. </p>
+<p>Sometimes I worry our goals in computing education are too often determined by industry. Industry wants young people to learn to code, so they grow up to work in industry. Teaching adults less clearly benefits industry. It does benefit democratic society. We need adults to be well informed of computational issues as legislators draft laws affecting internet privacy and security.&nbsp; </p>
+<p>I think end-user computer science education can learn a lot from Freire. I’ve long taken an interest in teaching scientists to program. Problem-posing education strikes me as incredibly useful here: first, we as educators observe how scientists do their work. What computational problems do they encounter (and fail to solve)? We then tailor a curriculum around <strong>listening</strong> to our audience. Then we share it with our students, using active and/or participatory learning techniques, having a <strong>dialogue</strong>_ _with our students. Finally, we empower our students to go out and <strong>act</strong>: they can solve their scientific problems with code.</p>
+<p>Mark Guzdial recently wrote a book <a href="http://www.amazon.com/Learner-Centered-Design-Computing-Education-Human-Centered/dp/1627053514" target="_blank" rel="noopener">about teaching CS to everybody</a>, which I recommend. He describes different curricula tailored for different audiences, and promotes active learning methods. My one complaint is he never cites Freire! (Since it’s a literature review of the CS education literature, and the CS education literature doesn’t cite Freire, this is to be expected.) </p>
+<p>Different communities in our society will have different needs for computing education. We as educators should listen to their different needs, dialogue with them, and empower them to action. Too often we use the banking model to teach computer science: we impose a curriculum on our learners without regard for whey would benefit from learning or for empowering our students.</p>
+<p>If we want universal computer science education, the banking model will fail us: there is no single perfect curriculum, and mere transmission of knowledge will not foster empowerment nor critical thinking. And while there’s validity in the&nbsp; economic arguments for teaching everybody to code, it’s to our detriment as educators to forget the socio-political part of our work.</p>
+<p><em>References:</em></p>
+<p>Freire, P. 1968. Pedagogy of the Oppressed.<br>Margolis, J. and Fisher, A. 2002. Unlocking the Clubhouse.</p>
+
+      
+    </div>
+</article>
+
+    </li>
+  
+    <li>
+      <article class='ListView'>
+    <header class="title">
+      
+        <h1>
+          <a href="/2014/02/10/Why-are-there-so-few-Black-and-Hispanic-computer-scientists/">Why are there so few Black and Hispanic computer scientists?</a>
+        </h1>
+      
+      <div class='ListMeta'>
+  <time datetime="2014-02-11T03:36:59.000Z" itemprop="datePublished">
+    2014-02-10
+  </time>
+  
+  | 
+  <ul>
+    
+  <li class="meta-text">
+  { <a href="/tags/literature-reviews/">literature reviews</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/computer-science-education/">computer science education</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/racial-minorities/">racial minorities</a> }
+  </li>
+
+  <li class="meta-text">
+  { <a href="/tags/race/">race</a> }
+  </li>
+
+
+  </ul>
+  
+  
+</div>
+
+    </header>
+    <div>
+      
+        <p><a href="http://www.reddit.com/r/CSEducation/comments/1xiy5i/the_leaky_pipeline_for_black_latinao_communities/" target="_blank" rel="noopener">This came up at /r/CSEducation today</a>, and I thought I’d summarize the literature I’ve seen regarding Black/Hispanic enrolments in computer science in North America. What factors do we know to be behind the lower numbers of Black/Hispanic students in North American CS classrooms?</p>
+<p>It’s a multi-part problem: fewer Black/Hispanic students show up to begin with – and then they’re less likely to graduate with a CS major at the end of their university career. I’ve broken up the factors I’ve seen in the literature based on_ _when in the “leaky pipeline” they most apply.</p>
+<p>I’m aiming here to give a quick-and-dirty overview of the issues – there’s a fair bit of literature on this and the references below provide an excellent place to start on the literature.</p>
+<p><em>(Sidenote: The Varma paper ([2]) also looks at Aboriginal students; my impression from the few Aboriginal CSers I know is that they parallel many of the same issues. There is unfortunately very little research on First Nations, Metis and Inuit under-representation in computer science.)</em> </p>
+<h3 id="The-Leaky-Pipeline-Middle-School"><a href="#The-Leaky-Pipeline-Middle-School" class="headerlink" title="The Leaky Pipeline: Middle School"></a>The Leaky Pipeline: Middle School</h3><ol>
+<li>In middle school, Black and Hispanic youth are<strong> just as interested in computer science</strong> as their White and Asian peers. [1, 2]</li>
+<li>Black and Hispanic youth are <strong>less likely to have a computer at home</strong> [1, 3].</li>
+<li>For White boys, video games are where many of them first “pull back the curtain” on how computers work. But while Black boys play just as much video games as White boys, <em>modding</em> and cheat codes aren’t part of their gaming cultures – and don’t hence “pull back” the curtain [3]. <strong>They don’t have the “<a href="https://medium.com/on-startups/521cb394fda2" target="_blank" rel="noopener">privilege to break things</a>“</strong>.</li>
+<li>Characters in video games have a lack of racial diversity [3] – from a young age Black and Hispanic students imagine computer scientists as “White or Asian men”; computer science does not seem relevant to them.</li>
+</ol>
+<h3 id="High-School"><a href="#High-School" class="headerlink" title="High School"></a>High School</h3><ol>
+<li>Black and Hispanic students <strong>are more likely to go to disadvantaged k-12 schools</strong> [4, 5].&nbsp;</li>
+<li>They’re less likely to graduate from high school than their white peers, and lower expectations are placed on them [1, 4].&nbsp;</li>
+<li>And for those that do succeed, they’re <strong>less likely to have a high school CS class available to them</strong>. The situation has actually been getting worse with the testing movement – disadvantaged schools are removing CS since it’s an “extra”, and they have a hard time recruiting/retaining qualified teachers [4].</li>
+</ol>
+<h3 id="Choosing-to-Study-University-CS"><a href="#Choosing-to-Study-University-CS" class="headerlink" title="Choosing to Study University CS"></a>Choosing to Study University CS</h3><ol>
+<li><strong>Encouragement is really, really important.</strong> And Black/Hispanic students  are <strong>less likely to be encouraged by parents</strong>, guardians, teachers, or  peers to study computer science [2, 6, 7]. <strong>Encouragement has a stronger effect on students than their ability</strong> at computer science [6] – and has the potential to overcome differences in preparation for university CS.</li>
+<li>Black and Hispanic girls are <strong>less likely </strong>than their White peers <strong>to know somebody  who works in STEM</strong>, and are less likely to have parents in STEM. [2]</li>
+<li>Black and Hispanic youth are <strong>more aware/worried about gender/racial discrimination in STEM</strong> than their White peers [2, 7].</li>
+<li>Black and Hispanic students are motivated to study computer science  because it is a<strong> prestigious, secure career, and provides social status</strong> [2, 5, 6, 8].  While they are turned on by the creative, pro-social, problem solving part  of computer science – and are more engaged when CS is taught that way  – they feel like <strong>“do what you love” is a luxury for rich White people</strong> [5].5.  Black, Hispanic and low-class White women choose universities  differently than middle/upper-class White women. The latter care about  things like reputation and programme detalis. The former care about  tuition, scholarships, and closeness to family [5]. At my university, tuition is higher for computer science than it is for other Arts &amp; Science majors. We’re likely not doing any favours to diversity here.&nbsp;</li>
+</ol>
+<h3 id="Staying-in-CS-Majors"><a href="#Staying-in-CS-Majors" class="headerlink" title="Staying in CS Majors"></a>Staying in CS Majors</h3><ol>
+<li>When Black and Hispanic students do show up to university CS, they are more likely than their White and Asian peers to feel underprepared. Indeed, 48% of Black, Hispanic and Aboriginal students feel not prepared “at all” [5].</li>
+<li>I’m gonna repeat it since it bears repeating: _Encouragement has a stronger effect on students than their ability at computer science [6] – and has the potential to overcome differences in preparation for university CS._3.  <strong>The heavy workload in CS courses is a problem for many of these students.</strong> You need to be “unmarried, single, no kids, no job, no hobbies, no dependents” [5]. Black and Hispanic students are disproportionately likely to be “non-traditional” students (have families, mature students, etc). Many Black/Hispanic students will leave CS because of the workload [5]. One contributing factor is social habits: whereas Asian students are likely to study together as part of their social life, Black students are more likely to study in isolation and not as part of their social life [8].</li>
+<li><strong>Another major reason they leave is hostility. They find they can’t be taken seriously due to their race</strong> (and gender, if a woman on top of it) [2]. And they’re more likely to feel like “outsiders” in CS [1]. Though they feel like outsiders, it’s worth noting that lack of identification as a geek/nerd appears not to be an issue [5].<br><a name="more"></a><br><strong>Some things that can be done:</strong></li>
+</ol>
+<ul>
+<li>Improve CS outreach to disadvantaged schools. Early encouragement and exposure to CS is important [7].</li>
+<li>Lobby to make CS mandatory in high school for <em>everybody.</em>*   Promote co-op in CS programmes, and appeal to the fact that CS offers a solid career path. Co-op has the advantage of helping with tuition – another concern for non-Asian racial minorities [5].</li>
+<li><a href="http://muse.jhu.edu/journals/journal_of_higher_education/summary/v082/82.5.hu.html" target="_blank" rel="noopener">Improving scholarship opportunities</a> for underrepresented minorities and low-income students to study computer scinece.</li>
+<li>Provide mentoring programmes for students, like the <a href="https://www.cs.ubc.ca/students/undergrad/careers/tri-mentoring-program" target="_blank" rel="noopener">Tri-Mentoring Programme</a> at UBC – mentorship is a valuable source of encouragement and advice for students of underrepresented groups.</li>
+<li>Provide social learning communities, like the <a href="http://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=1119&amp;context=cjsotl_rcacea" target="_blank" rel="noopener">First-Year Learning Communities</a> we have at U of Toronto – make it part of CS students’ social lives to study together.</li>
+</ul>
+<p><strong>References</strong></p>
+<ol>
+<li><div class="gs_citr" id="gs_cit0" tabindex="0">Zarrett, Nicole, et al. “<a href="http://www.rcgd.isr.umich.edu/garp/articles/zarrett06.pdf" target="_blank" rel="noopener">Examining the gender gap in IT by race: Young adults’ decisions to pursue an IT career</a>.” <em>Women and information technology: Research on underrepresentation</em> (2006): 55-88.</div></li>
+<li>Girl Scout Research Institute. “<a href="http://www.girlscouts.org/research/publications/stem/generation_stem_what_girls_say.asp" target="_blank" rel="noopener">Generation STEM: What Girls Say about Science, Technology, Engineering and Math</a>“. (2012)</li>
+<li><div class="gs_citr" id="gs_cit0" tabindex="0">DiSalvo, Betsy James, Kevin Crowley, and Roy Norwood. “<a href="http://upclose.lrdc.pitt.edu/publications/pdfs/disalvo_crowley_norwood.pdf" target="_blank" rel="noopener">Learning in Context Digital Games and Young Black Men</a>.” <em>Games and Culture</em> 3.2 (2008): 131-141.</div></li>
+<li><div class="gs_citr" id="gs_cit0" tabindex="0">Goode, Joanna, Rachel Estrella, and Jane Margolis. “Lost in translation: Gender and high school computer science.” <em>Women and information technology: Research on underrepresentation</em> (2006): 89-114.</div></li>
+<li><div class="gs_citr" id="gs_cit0" tabindex="0">Varma, Roli. “<a href="http://www.unm.edu/~varma/print/SAC_Geek.pdf" target="_blank" rel="noopener">Women in computing: The role of geek culture</a>.” <em>Science as culture</em> 16.4 (2007): 359-376.</div></li>
+<li><div class="gs_citr" id="gs_cit0" tabindex="0">Guzdial, Mark, et al. “<a href="http://dl.acm.org/citation.cfm?id=2361304" target="_blank" rel="noopener">A statewide survey on computing education pathways and influences: factors in broadening participation in computing.</a>“ <em>Proceedings of the ninth annual international conference on International computing education research</em>. ACM, 2012.</div></li>
+<li><div class="gs_citr" id="gs_cit0" tabindex="0">Zarrett, Nicole R., and  Oksana Malanchuk. “<a href="http://deepblue.lib.umich.edu/bitstream/handle/2027.42/39131/150_ftp.pdf?sequence=1" target="_blank" rel="noopener">Who’s computing? Gender and race differences in young adults’ decisions to pursue an information technology career.</a>“ <em>New directions for child and adolescent development</em> 2005.110 (2005): 65-84.</div></li>
+<li><div class="gs_citr" id="gs_cit0" tabindex="0">Margolis, Jane, and Allan Fisher. <em>Unlocking the clubhouse: Women in computing</em>. The MIT Press, 2003.</div></li>
+</ol>
 
       
     </div>
